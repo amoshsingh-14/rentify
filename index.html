@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RentAll - Your Commodity Rental Solution</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-house-circle-check"></i>
+                    <span>RentAll</span>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Categories</a></li>
+                        <li><a href="#">How It Works</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="auth-buttons">
+                    <button class="btn btn-outline">Log In</button>
+                    <button class="btn btn-primary">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Rent Premium Commodities for Less</h1>
+                <p>From tools to tech, find whatever you need for your projects and events at affordable rates</p>
+                <div class="search-bar">
+                    <input type="text" placeholder="What are you looking for?">
+                    <button>Search</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="container">
+        <h2 class="section-title">Popular Categories</h2>
+        <div class="categories">
+            <div class="category-card">
+                <div class="category-icon">
+                    <i class="fas fa-tools"></i>
+                </div>
+                <h3>Tools & Equipment</h3>
+                <p>Drills, saws, ladders and more</p>
+            </div>
+            <div class="category-card">
+                <div class="category-icon">
+                    <i class="fas fa-tv"></i>
+                </div>
+                <h3>Electronics</h3>
+                <p>Projectors, cameras, audio gear</p>
+            </div>
+            <div class="category-card">
+                <div class="category-icon">
+                    <i class="fas fa-utensils"></i>
+                </div>
+                <h3>Event Supplies</h3>
+                <p>Tables, chairs, party equipment</p>
+            </div>
+            <div class="category-card">
+                <div class="category-icon">
+                    <i class="fas fa-car"></i>
+                </div>
+                <h3>Vehicles</h3>
+                <p>Bikes, scooters, moving trucks</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Items Section -->
+    <section class="container">
+        <h2 class="section-title">Featured Items</h2>
+        <div class="items">
+            <div class="item-card">
+                <img src="https://placehold.co/600x400" alt="Professional drill set with various attachments and accessories" class="item-image">
+                <div class="item-details">
+                    <h3>Professional Drill Set</h3>
+                    <div class="item-meta">
+                        <span><i class="fas fa-map-marker-alt"></i> Downtown</span>
+                        <span class="price">$15/day</span>
+                    </div>
+                    <p>Complete drill set with 30+ attachments. Perfect for DIY projects.</p>
+                    <button class="btn btn-primary rent-btn" data-id="1">Rent Now</button>
+                </div>
+            </div>
+            <div class="item-card">
+                <img src="https://placehold.co/600x400" alt="Professional DSLR camera with lens and accessories" class="item-image">
+                <div class="item-details">
+                    <h3>DSLR Camera Bundle</h3>
+                    <div class="item-meta">
+                        <span><i class="fas fa-map-marker-alt"></i> West Side</span>
+                        <span class="price">$45/day</span>
+                    </div>
+                    <p>Professional camera with multiple lenses. Great for events and photography.</p>
+                    <button class="btn btn-primary rent-btn" data-id="2">Rent Now</button>
+                </div>
+            </div>
+            <div class="item-card">
+                <img src="https://placehold.co/600x400" alt="Premium mountain bike with suspension and gear system" class="item-image">
+                <div class="item-details">
+                    <h3>Mountain Bike</h3>
+                    <div class="item-meta">
+                        <span><i class="fas fa-map-marker-alt"></i> East Side</span>
+                        <span class="price">$25/day</span>
+                    </div>
+                    <p>Premium mountain bike with full suspension. Perfect for trail riding.</p>
+                    <button class="btn btn-primary rent-btn" data-id="3">Rent Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">How It Works</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Browse & Select</h3>
+                    <p>Explore our catalog and choose the items you need</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Book & Confirm</h3>
+                    <p>Select rental dates and confirm your booking</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Receive Items</h3>
+                    <p>Get items delivered or pick up at our location</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Return & Review</h3>
+                    <p>Return after use and share your experience</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials container">
+        <h2 class="section-title">What Our Customers Say</h2>
+        <div class="testimonial-cards">
+            <div class="testimonial">
+                <p class="testimonial-text">"Renting the photography equipment for my sister's wedding was so easy and affordable. The camera was in perfect condition!"</p>
+                <div class="testimonial-author">
+                    <img src="https://placehold.co/80x80" alt="Portrait of Jessica, a satisfied customer" class="author-avatar">
+                    <div>
+                        <h4>Jessica Parker</h4>
+                        <p>Photographer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial">
+                <p class="testimonial-text">"I needed tools for a home renovation project. RentAll saved me hundreds of dollars compared to buying everything."</p>
+                <div class="testimonial-author">
+                    <img src="https://placehold.co/80x80" alt="Portrait of Michael, a satisfied customer" class="author-avatar">
+                    <div>
+                        <h4>Michael Chen</h4>
+                        <p>Homeowner</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial">
+                <p class="testimonial-text">"The party supplies I rented made my daughter's birthday unforgettable. The process was smooth from start to finish."</p>
+                <div class="testimonial-author">
+                    <img src="https://placehold.co/80x80" alt="Portrait of Sarah, a satisfied customer" class="author-avatar">
+                    <div>
+                        <h4>Sarah Johnson</h4>
+                        <p>Event Planner</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Stay Updated</h2>
+                <p>Subscribe to our newsletter for new items and special offers</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>RentAll</h3>
+                    <p>Your one-stop solution for all rental needs. Quality items, affordable prices.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Categories</a></li>
+                        <li><a href="#">How It Works</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Help Center</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Info</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Rental St, City, Country</li>
+                        <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+                        <li><i class="fas fa-envelope"></i> info@rentall.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2023 RentAll. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!-- Our JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
